@@ -1,9 +1,52 @@
-**Building, Hosting, and Designing** My Own Web Application on Azure
-I created an **Azure Web App** resource.
-I purchased and transferred a domain over from GoDaddy.
-I deployed a Docker container that contains a framework of the webpage for my custom web application.
-I customized my cyber blog web application.
-I created and bound an App Service Managed Certificate.
-I create a Front Door Instance.
-I analyzed and configured custom WAF Rule Sets.
-I analyzed and fixed Security Center Recommendations.
+<h1>Design and Secure a Personal Web Application</h1>
+
+
+<h2>Description</h2>
+Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+<br />
+
+
+<h2>Languages and Utilities Used</h2>
+
+- <b>Microsoft Azure</b> 
+
+<h2>Activities:</h2>
+
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select the disk:  <br/>
+<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Enter the number of passes: <br/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirm your selection:  <br/>
+<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Wait for process to complete (may take some time):  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sanitization complete:  <br/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Observe the wiped disk:  <br/>
+<img src="https://imgur.com/K6wfSeB.png" height="80%" width="80%" alt="Screenshot"/>
+</p>
+
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
